@@ -19,7 +19,7 @@ describe('calculateDistance function', () => {
 
 describe('calculateJunctionPoint function', () => {
     it('should correctly calculate the junction point between two lines if they intersect', () => {
-        // Create sample lines for testing
+     
         const line1 = new Line({ point1: { x: 1, y: 2 }, point2: { x: 3, y: 4 } });
         const line2 = new Line({ point1: { x: 2, y: 1 }, point2: { x: 4, y: 3 } });
 
