@@ -9,7 +9,7 @@ class Line {
     }
 
     calculateSlope() {
-        this.slope = (this.point1.y - this.point2.y) / (this.point1.x - this.point2.x)
+        this.slope = (this.point1.y - this.point2.y) / (this.point1.x - this.point2.x)       
     }
 
     calculateNOfLineFunction() {
@@ -29,7 +29,6 @@ class Line {
         let y = this.slope * x + this.n
         return new Point({ x, y })
     }
-
     getPointByY(y) {
         let x = (y - this.n) / this.slope;
         return new Point({ x, y })
